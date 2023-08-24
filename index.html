@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="script.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Code Challenge - Origamid Course</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="statistics-container">
+        <div>
+          <h1>Estatísticas</h1>
+          <p>Total: <span class="total-values"></span></p>
+        </div>
+        <div class="credit-card-infos">
+          <p>Cartão de Crédito: <span class="total-credit-cards"></span></p>
+          <p>Boleto: <span class="total-tickets"></span></p>
+        </div>
+        <div>
+          <p>Paga: <span class="paid"></span></p>
+          <p>
+            Recusada pela operadora de cartão: <span class="refused"></span>
+          </p>
+          <p>Aguardando pagamento: <span class="waiting-payment"></span></p>
+          <p>Estornada: <span class="reversed"></span></p>
+          <p>Dia com mais vendas: <span class="more-sellings"></span></p>
+        </div>
+      </div>
+      <div class="table-wrapper">
+        <h1>Dados</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Email</th>
+              <th>Compra</th>
+              <th>Pagamento</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody class="table-body"></tbody>
+        </table>
+      </div>
+    </main>
+  </body>
+</html>
